@@ -1,0 +1,101 @@
+#fwa_coming_1{
+     background-color: #111;
+     color: #fff;
+     padding: 30px 0;
+     min-height: 100vh;
+     height: 100%;
+}
+ #fwa_coming_1 .fws_containt{
+     max-width: 70%;
+     margin: 0 auto;
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     padding: 100px 0 0;
+}
+ #fwa_coming_1 .fws_containt h2{
+     background: linear-gradient(90deg, #43FFEC 0%, #FFB84D 50%, #FF0080 100%);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+     font-size: 3.75rem;
+     font-weight: 700;
+     text-transform: capitalize;
+     letter-spacing: 2px;
+     margin-bottom: 30px;
+}
+ #fwa_coming_1 .fws_containt p{
+     color: #ccc;
+     margin-bottom: 30px;
+     max-width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+}
+ #fwa_coming_1 .fws_containt form{
+     margin-bottom: 10px;
+     justify-content: center;
+}
+ #fwa_coming_1 .fws_containt form input{
+     max-width: 200px;
+     background: rgba(255, 255, 255,.15);
+     border-color: transparent;
+     color: #fff;
+     box-shadow: none;
+     border-radius: 0;
+     border-top-left-radius: 3px;
+     border-bottom-left-radius: 3px;
+}
+ #fwa_coming_1 .fws_containt form input::placeholder{
+     color: #b1b1b1;
+}
+ #fwa_coming_1 .fws_containt form a{
+     border-radius: 3px;
+     border: 0;
+     background: #fff;
+     color: #000;
+     font-size: 14px;
+     padding: 0 10px;
+     line-height: 38px;
+}
+ #fwa_coming_1 .fws_containt span{
+     color: #b1b1b1;
+     font-size: 12px;
+}
+ #fwa_coming_1 .fws_containt ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     display: flex;
+     justify-content: center;
+     margin-top: 30px;
+}
+ #fwa_coming_1 .fws_containt ul li a{
+     color: #d8d8d8;
+     text-decoration: none;
+     margin: 0 10px;
+}
+ #fwa_coming_1 .top_header .logo img{
+     width: 100px;
+}
+ #fwa_coming_1 .top_header{
+     justify-content: space-between;
+}
+ #fwa_coming_1 .top_header .call_btn a{
+     font-weight: 500;
+     border-radius: 3px;
+}
+ @media (max-width: 768px){
+     #fwa_coming_1 .fws_containt, #fwa_coming_1 .fws_containt p{
+         max-width: 100%;
+    }
+}
+ @media (max-width: 576px){
+     #fwa_coming_1 .fws_containt h2{
+         font-size: 3rem;
+    }
+}
+ @media (max-width: 365px){
+     #fwa_coming_1 .fws_containt form input{
+        max-width: 150px;
+    }
+}
